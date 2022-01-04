@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+  
+.mdc-top-app-bar {
+  margin-top: 0;
+}
+
+.mdc-image-list__item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mdc-image-list__image {
+  max-height: 512px;
+}

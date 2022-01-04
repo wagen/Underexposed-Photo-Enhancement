@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+
+<body>
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <span class="mdc-top-app-bar__title">Underexposed Photo Enhancement</span>
+            </section>
+        </div>
+    </header>
+    <main class="mdc-top-app-bar--fixed-adjust">
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-6">
+                <ul class="mdc-image-list my-image-list">
+                    <li class="mdc-image-list__item">
+                        <img class="mdc-image-list__image" id="img_in" src="/">
+                        <div class="mdc-image-list__supporting">
+                            <span class="mdc-image-list__label">Input Image</span>
+                        </div>
+                    </li>
+                </ul>
+          </div>
+          <div class="mdc-layout-grid__cell--span-6">
+            <ul class="mdc-image-list my-image-list">
+                <li class="mdc-image-list__item">
+                    <img class="mdc-image-list__image" id="img_out" src="/">
+                    <div class="mdc-image-list__supporting">
+                      <span class="mdc-image-list__label">Output Image</span>
+                    </div>
+                  </li>
+            </ul>
+            </div>
+          <div class="mdc-layout-grid__cell"></div>
+          <div class="mdc-layout-grid__cell">
+                <label>
+                    <form class="mdc-button mdc-button--outlined" id="upload_btn" enctype="multipart/form-data">
+                        <input type="file" name="image" id="image" style="display:none;">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__focus-ring"></span>
+                        <span class="mdc-button__label">Upload Image</span>
+                    </form>
+                </label>
+          </div>
+          <div class="mdc-layout-grid__cell"></div>
+        </div>
+      </div>
+    </main>
+
+    
+  
+    
+    
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js" type="text/javascript"></script>
+</body>
+</html>
